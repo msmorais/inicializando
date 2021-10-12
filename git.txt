@@ -1,0 +1,8 @@
+--git e github--
+versionamento de codigos com git e github.
+instalações e comandos na pratica.
+repositorio de projetos dentro do git.
+
+Comandos de configuração.
+comandos de tarefas.
+comandos no github.

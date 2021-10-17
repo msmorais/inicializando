@@ -6,3 +6,34 @@ repositorio de projetos dentro do git.
 Comandos de configuração.
 comandos de tarefas.
 comandos no github.
+
+git list
+git log
+git branch
+git status
+git add -A
+git commit -am
+git commit "informações pertinentes as alterações efetuadas no commit"
+
+git reset --soft, --mixed, --hard
+-soft, retorna ao estado anterior, mas com as informações todas sem estar commitadas, 
+podendo ter acesso a todas as alterações
+-mixed, identico ao anterior porem sem etar preparado para commitar
+-hard, volta para o commit anterior, eliminando tudo o que foi elaborado,
+voltando para o estado do commit anterior.
+
+criando um novo branch
+git branch analise
+git checkout analise : o chechout muda o branch
+o novo branch novo herda todo o historico dos branch anterior.
+
+cada branch tera um historico diferente.
+
+--diferença entre o que está no git e o que está no computador
+git diff, possibilita verificar o que foi alterado.
+git diff --name-only, apresenta todos os arquivos que foram modificados
+git diff nome_do_arquivo, vai apresentar apenas o que foi alterado naquele arquivo.
+git checkout HEAD --nome_do_arquivo, retorna para o estado anterior.
+
+
+
